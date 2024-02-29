@@ -1,5 +1,11 @@
+import NewTaskForm from "./components/NewTaskForm";
+
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <NewTaskForm />
+    </div>
+  );
 }
 
 export default App;
