@@ -8,8 +8,6 @@ export type RootState = ReturnType<typeof store.getState>;
 const List = () => {
   const tasks = useSelector((store: RootState) => store.todos);
 
-  console.log(tasks);
-
   return (
     <UnorderedList>
       {tasks.map((item) => (
